@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.1)
+  - PasswordTextField (1.1.0)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - PasswordTextField
+  - R.swift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  PasswordTextField: 35ee7f34448c3de061136cf2556a967f1a287476
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: f20771bbe192261eb13e1d9916482d6494546b35
+
+COCOAPODS: 1.4.0

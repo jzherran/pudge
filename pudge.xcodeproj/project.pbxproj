@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		77336FE0207524EA008C31D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77336FDF207524EA008C31D4 /* AppDelegate.swift */; };
-		77336FE2207524EA008C31D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77336FE1207524EA008C31D4 /* ViewController.swift */; };
-		77336FE5207524EA008C31D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77336FE3207524EA008C31D4 /* Main.storyboard */; };
+		77336FE2207524EA008C31D4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77336FE1207524EA008C31D4 /* LoginController.swift */; };
+		77336FE5207524EA008C31D4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77336FE3207524EA008C31D4 /* Login.storyboard */; };
 		77336FE7207524EA008C31D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77336FE6207524EA008C31D4 /* Assets.xcassets */; };
 		77336FEA207524EA008C31D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77336FE8207524EA008C31D4 /* LaunchScreen.storyboard */; };
+		7795C6D4207671BA001A94F4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6D3207671BA001A94F4 /* StringExtension.swift */; };
+		7795C6D720767240001A94F4 /* ValidationFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6D620767240001A94F4 /* ValidationFunction.swift */; };
+		7795C6D920768038001A94F4 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6D820768038001A94F4 /* MainController.swift */; };
+		7795C6DB20768043001A94F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7795C6DA20768043001A94F4 /* Main.storyboard */; };
+		7795C6DD2076836A001A94F4 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6DC2076836A001A94F4 /* LoginPresenter.swift */; };
+		7795C6DF20768382001A94F4 /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6DE20768382001A94F4 /* LoginContract.swift */; };
+		7795C6E120768720001A94F4 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6E020768720001A94F4 /* ServiceLocator.swift */; };
+		7795C6E320768C34001A94F4 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6E220768C34001A94F4 /* R.generated.swift */; };
+		7795C6E72077BFC5001A94F4 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6E62077BFC5001A94F4 /* LoginRouter.swift */; };
+		7795C6E92077CC22001A94F4 /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6E82077CC22001A94F4 /* MainContract.swift */; };
+		7795C6EB2077CC2D001A94F4 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6EA2077CC2D001A94F4 /* MainRouter.swift */; };
+		7795C6ED2077CC40001A94F4 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7795C6EC2077CC40001A94F4 /* MainPresenter.swift */; };
+		7B5E95EDBB11A0A8382D5E5B /* Pods_pudge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99801DC91340B996FB508BBE /* Pods_pudge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77336FDC207524EA008C31D4 /* pudge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pudge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77336FDF207524EA008C31D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77336FE1207524EA008C31D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77336FE4207524EA008C31D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77336FE1207524EA008C31D4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		77336FE4207524EA008C31D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		77336FE6207524EA008C31D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77336FE9207524EA008C31D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77336FEB207524EA008C31D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7795C6D3207671BA001A94F4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		7795C6D620767240001A94F4 /* ValidationFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationFunction.swift; sourceTree = "<group>"; };
+		7795C6D820768038001A94F4 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		7795C6DA20768043001A94F4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7795C6DC2076836A001A94F4 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		7795C6DE20768382001A94F4 /* LoginContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContract.swift; sourceTree = "<group>"; };
+		7795C6E020768720001A94F4 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		7795C6E220768C34001A94F4 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		7795C6E62077BFC5001A94F4 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		7795C6E82077CC22001A94F4 /* MainContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContract.swift; sourceTree = "<group>"; };
+		7795C6EA2077CC2D001A94F4 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		7795C6EC2077CC40001A94F4 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		83625584CEE8BB6221C2E21A /* Pods-pudge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pudge.release.xcconfig"; path = "Pods/Target Support Files/Pods-pudge/Pods-pudge.release.xcconfig"; sourceTree = "<group>"; };
+		99801DC91340B996FB508BBE /* Pods_pudge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pudge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9ECD94EDC301EF4C11DD3D6 /* Pods-pudge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pudge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pudge/Pods-pudge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5E95EDBB11A0A8382D5E5B /* Pods_pudge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 			children = (
 				77336FDE207524EA008C31D4 /* pudge */,
 				77336FDD207524EA008C31D4 /* Products */,
+				811AC8EE9D70DAF0703E2286 /* Pods */,
+				A43AED668691A2EE6EB0182F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,91 @@
 		77336FDE207524EA008C31D4 /* pudge */ = {
 			isa = PBXGroup;
 			children = (
-				77336FDF207524EA008C31D4 /* AppDelegate.swift */,
-				77336FE1207524EA008C31D4 /* ViewController.swift */,
-				77336FE3207524EA008C31D4 /* Main.storyboard */,
-				77336FE6207524EA008C31D4 /* Assets.xcassets */,
-				77336FE8207524EA008C31D4 /* LaunchScreen.storyboard */,
+				7795C6CC20757F66001A94F4 /* configuration */,
+				7795C6D0207670B8001A94F4 /* extension */,
+				7795C6D52076722C001A94F4 /* function */,
+				7795C6C620757940001A94F4 /* login */,
+				7795C6CA20757F4A001A94F4 /* main */,
+				7795C6CD20757F82001A94F4 /* resource */,
 				77336FEB207524EA008C31D4 /* Info.plist */,
 			);
 			path = pudge;
+			sourceTree = "<group>";
+		};
+		7795C6C620757940001A94F4 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				7795C6DE20768382001A94F4 /* LoginContract.swift */,
+				77336FE1207524EA008C31D4 /* LoginController.swift */,
+				7795C6DC2076836A001A94F4 /* LoginPresenter.swift */,
+				7795C6E62077BFC5001A94F4 /* LoginRouter.swift */,
+				77336FE3207524EA008C31D4 /* Login.storyboard */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		7795C6CA20757F4A001A94F4 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				7795C6E82077CC22001A94F4 /* MainContract.swift */,
+				7795C6D820768038001A94F4 /* MainController.swift */,
+				7795C6EC2077CC40001A94F4 /* MainPresenter.swift */,
+				7795C6EA2077CC2D001A94F4 /* MainRouter.swift */,
+				7795C6DA20768043001A94F4 /* Main.storyboard */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		7795C6CC20757F66001A94F4 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				7795C6E220768C34001A94F4 /* R.generated.swift */,
+				77336FDF207524EA008C31D4 /* AppDelegate.swift */,
+				7795C6E020768720001A94F4 /* ServiceLocator.swift */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		7795C6CD20757F82001A94F4 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				77336FE8207524EA008C31D4 /* LaunchScreen.storyboard */,
+				77336FE6207524EA008C31D4 /* Assets.xcassets */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		7795C6D0207670B8001A94F4 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				7795C6D3207671BA001A94F4 /* StringExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		7795C6D52076722C001A94F4 /* function */ = {
+			isa = PBXGroup;
+			children = (
+				7795C6D620767240001A94F4 /* ValidationFunction.swift */,
+			);
+			path = function;
+			sourceTree = "<group>";
+		};
+		811AC8EE9D70DAF0703E2286 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9ECD94EDC301EF4C11DD3D6 /* Pods-pudge.debug.xcconfig */,
+				83625584CEE8BB6221C2E21A /* Pods-pudge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A43AED668691A2EE6EB0182F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99801DC91340B996FB508BBE /* Pods_pudge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +179,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77336FEE207524EA008C31D4 /* Build configuration list for PBXNativeTarget "pudge" */;
 			buildPhases = (
+				C12D75C368B09918537AAC82 /* [CP] Check Pods Manifest.lock */,
+				7795C6C720757EB1001A94F4 /* ShellScript */,
 				77336FD8207524EA008C31D4 /* Sources */,
 				77336FD9207524EA008C31D4 /* Frameworks */,
 				77336FDA207524EA008C31D4 /* Resources */,
+				89C0FA29E15204A2306929EC /* [CP] Embed Pods Frameworks */,
+				78C4EC287F8F29A0E84AA1FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,31 +237,116 @@
 			files = (
 				77336FEA207524EA008C31D4 /* LaunchScreen.storyboard in Resources */,
 				77336FE7207524EA008C31D4 /* Assets.xcassets in Resources */,
-				77336FE5207524EA008C31D4 /* Main.storyboard in Resources */,
+				77336FE5207524EA008C31D4 /* Login.storyboard in Resources */,
+				7795C6DB20768043001A94F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7795C6C720757EB1001A94F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+		};
+		78C4EC287F8F29A0E84AA1FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pudge/Pods-pudge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89C0FA29E15204A2306929EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pudge/Pods-pudge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PasswordTextField/PasswordTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PasswordTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pudge/Pods-pudge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C12D75C368B09918537AAC82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pudge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77336FD8207524EA008C31D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77336FE2207524EA008C31D4 /* ViewController.swift in Sources */,
+				77336FE2207524EA008C31D4 /* LoginController.swift in Sources */,
+				7795C6D920768038001A94F4 /* MainController.swift in Sources */,
+				7795C6D720767240001A94F4 /* ValidationFunction.swift in Sources */,
+				7795C6E92077CC22001A94F4 /* MainContract.swift in Sources */,
+				7795C6ED2077CC40001A94F4 /* MainPresenter.swift in Sources */,
+				7795C6EB2077CC2D001A94F4 /* MainRouter.swift in Sources */,
+				7795C6DF20768382001A94F4 /* LoginContract.swift in Sources */,
+				7795C6D4207671BA001A94F4 /* StringExtension.swift in Sources */,
+				7795C6E120768720001A94F4 /* ServiceLocator.swift in Sources */,
+				7795C6E320768C34001A94F4 /* R.generated.swift in Sources */,
+				7795C6E72077BFC5001A94F4 /* LoginRouter.swift in Sources */,
 				77336FE0207524EA008C31D4 /* AppDelegate.swift in Sources */,
+				7795C6DD2076836A001A94F4 /* LoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		77336FE3207524EA008C31D4 /* Main.storyboard */ = {
+		77336FE3207524EA008C31D4 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				77336FE4207524EA008C31D4 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		77336FE8207524EA008C31D4 /* LaunchScreen.storyboard */ = {
@@ -211,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,6 +469,7 @@
 		};
 		77336FEF207524EA008C31D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9ECD94EDC301EF4C11DD3D6 /* Pods-pudge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +485,7 @@
 		};
 		77336FF0207524EA008C31D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83625584CEE8BB6221C2E21A /* Pods-pudge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
